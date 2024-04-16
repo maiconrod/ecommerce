@@ -4,7 +4,7 @@ import Img2 from "../../assets/shirt/shirt2.png";
 import Img3 from "../../assets/shirt/shirt3.png";
 import { FaStar } from "react-icons/fa6";
 
-const TopProducts = () => {
+const TopProducts = ({ handlerOrderPopup }) => {
   const ProductsData = [
     {
       id: 1,
@@ -56,14 +56,12 @@ const TopProducts = () => {
               data-aos-delay={data.aosDelay}
               key={data.id}
               className="rounded-2xl bg-white dark:bg-gray-800
-            hover:bg-black/80 dark:hover:bg-primary
-            hover:text-white relative duration-500 shadow-xl group max-x-[300px] mb-8"
-            >
+              hover:bg-black/80 dark:hover:bg-primary
+              hover:text-white relative duration-500 shadow-xl group max-x-[300px] mb-8">
               {/* image section */}
               <div
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
-                key={data.id}
                 className="h-[100px]"
               >
                 <img
@@ -87,7 +85,7 @@ const TopProducts = () => {
                 </p>
                 <button
                   className="bg-primary hover:scale-105 duration-500 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
-                  //   onClick={handleOrderPopup}
+                  onClick={handlerOrderPopup}
                 >
                   Order Now
                 </button>
