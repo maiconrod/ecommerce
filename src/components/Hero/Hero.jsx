@@ -8,23 +8,23 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Mens`s Wear",
+    title: "50% OFF em toda moda feminina",
     description:
-      "The best Mens`s Wear then you never seen in you life! Excelent materials, perfect production and de most just price!",
+      "O melhor da moda feminina, produtos de qualidade e preço justo você só encontra aqui. Venha conferir!",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Womens`s Wear",
+    title: "Promoção coleção masculina de inverno",
     description:
-      "The biggest promotion ever seen in our history! 30% discount on many products!",
+      "Peças masculinas com até 50% de desconto, somente enquanto durar o estoque.",
   },
   {
     id: 3,
     img: Image3,
-    title: "Upto 50% off on all Mens`s Wear",
+    title: "Promoção BIG SALE 70%",
     description:
-      "The biggest promotion ever seen in our history! 70% discount on many products!",
+      "Somente esta semana, peças selecionadas com até 70% de desconto à vista.",
   },
 ];
 
@@ -66,7 +66,7 @@ const Hero = ({ handlerOrderPopup }) => {
                     data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="100"
-                    className="text-sm"
+                    className="text-sm text-justify"
                   >
                     {data.description}
                   </p>
@@ -78,7 +78,7 @@ const Hero = ({ handlerOrderPopup }) => {
                     <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                     onClick={handlerOrderPopup}
                     >
-                      Order Now
+                      Faça seu pedido
                     </button>
                   </div>
                 </div>

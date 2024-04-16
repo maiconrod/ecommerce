@@ -20,29 +20,27 @@ const Banner = () => {
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
-              Winter Sale upto 50% off
+              Coleção inverno 50% off
             </h1>
-            <p data-aos="fade-up" className="text-sm text-gray-500 tracking-wide leading-5">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
-              tempore sed iste libero ipsa
-              aperiam porro corrupti?
+            <p data-aos="fade-up" className="text-sm text-gray-500 tracking-wide leading-5 text-justify">
+              Aqui você encontra o melhor da moda de inverno, com descontos inncríveis. Não perca tempo e visite nossa loja, a promoção é apenas enquanto durar o estoque. Corra e aproveite!
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
-                <p>Quality Products</p>
+                <p>Produtos de Qualidade</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
-                <p>Fast Delivery</p>
+                <p>Entrega Rápida</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
-                <p>Easy Payment Method</p>
+                <p>Pagamento simplificado</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
-                <p>Get Offers</p>
+                <p>Veja as Ofertas</p>
               </div>
             </div>
           </div>

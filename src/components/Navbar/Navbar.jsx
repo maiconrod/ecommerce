@@ -13,39 +13,39 @@ const Menu = [
     },
     {
         id: 2,
-        name: "Top Rated",
+        name: "Melhor Avaliados",
         link: "/#services"
     },
     {
         id: 3,
-        name: "Kids Wear",
+        name: "Moda Infantil",
         link: "/#"
     },
     {
         id: 4,
-        name: "Mens Wear",
+        name: "Moda Masculina",
         link: ".#services"
     },
     {
         id: 5,
-        name: "Eletronics",
+        name: "Moda Feminina",
         link: "/#"
     }
 ]
 const DropdownLinks = [
     {
         id: 6,
-        name: "Trending Products",
+        name: "Mais Procurados",
         link: "#"
     },
     {
         id: 7,
-        name: "Best Selling",
+        name: "Mais Vendidos",
         link: "#"
     },
     {
         id: 8,
-        name: "Top Rated",
+        name: "Melhor avaliados",
         link: "#"
     }
 ]
@@ -67,7 +67,7 @@ const Navbar = ({ handlerOrderPopup }) => {
             <div className="relative group hidden sm:block">
               <input
                 type="text"
-                placeholder="search"
+                placeholder=" O que você busca"
                 className="w-[200px] sm:w-[200px] group-hover:w-[250px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none focus:border-1
                 focus:border-primary
                 dark:border-gray-500
@@ -82,7 +82,7 @@ const Navbar = ({ handlerOrderPopup }) => {
               className="bg-gradient-to-r from-primary to-secondary transition-all duration-300 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
             >
               <span className="group-hover:block hidden transition-all duration-300">
-                Order
+                Pedido
               </span>
               <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
@@ -109,7 +109,7 @@ const Navbar = ({ handlerOrderPopup }) => {
             <li className="group relative cursor-pointer">
                 <a href="#"
                 className="flex items-center gap-[2px] py-2">
-                    Trending Products
+                    Mais Procurados
                     <span>
                         <FaCaretDown 
                         className="transition-all

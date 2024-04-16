@@ -11,7 +11,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
               {/* header */}
               <div className="flex items-center justify-between">
                 <div>
-                  <h1>Order Now</h1>
+                  <h1>Dados para o pedido:</h1>
                 </div>
                 <div>
                   {/* Parte de click para fechar o popup */}
@@ -42,7 +42,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                   <button
                   className="bg-gradient-to-r from-primary to-secondary
                   hover:scale-105 duration-200 text-white py-1 px-4 rounded-full"
-                  >Order Now</button>
+                  >Enviar pedido</button>
                 </div>
               </div>
             </div>

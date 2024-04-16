@@ -9,7 +9,7 @@ const TopProducts = ({ handlerOrderPopup }) => {
     {
       id: 1,
       img: Img1,
-      title: "Casual Wear",
+      title: "Moda Casual",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam sit placeat magnam, rerum architecto tempore quae repellendus voluptatibus quas.",
       aosDelay: 0,
@@ -17,7 +17,7 @@ const TopProducts = ({ handlerOrderPopup }) => {
     {
       id: 2,
       img: Img2,
-      title: "Printed Shirt",
+      title: "Camisa Listrada",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam sit placeat magnam, rerum architecto tempore quae repellendus voluptatibus quas.",
       aosDelay: 100,
@@ -25,7 +25,7 @@ const TopProducts = ({ handlerOrderPopup }) => {
     {
       id: 3,
       img: Img3,
-      title: "Women Shirt",
+      title: "Camisa Feminina",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam sit placeat magnam, rerum architecto tempore quae repellendus voluptatibus quas.",
       aosDelay: 200,
@@ -36,16 +36,15 @@ const TopProducts = ({ handlerOrderPopup }) => {
     <div>
       <div className="container">
         {/* Header Section */}
-        <div className="text-left mb-24">
-          <p data-aos="fade-up" className="text-sm text-primary">
-            Top Rated Products for you
+        <div className="mb-24 text-center">
+          <p data-aos="fade-up" className="text-base text-primary p-2">
+            Produtos 
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Best Products
+          <h1 data-aos="fade-up" className="text-3xl font-bold p-2">
+            Mais Vendidos
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-            accusantium impedit quae.
+          <p data-aos="fade-up" className="text-base text-gray-500">
+            Fique por dentro da moda masculina atual e do gosto da maioria dos homens.
           </p>
         </div>
         {/* Body Section */}
@@ -87,7 +86,7 @@ const TopProducts = ({ handlerOrderPopup }) => {
                   className="bg-primary hover:scale-105 duration-500 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
                   onClick={handlerOrderPopup}
                 >
-                  Order Now
+                  Comprar
                 </button>
               </div>
             </div>

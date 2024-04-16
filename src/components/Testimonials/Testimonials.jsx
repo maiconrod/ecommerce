@@ -44,31 +44,31 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Victor Malafaia",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui voluptatum vitae, dicta harum aliquid maxime repudiandae deleniti modi delectus!",
+      text: "Uma loja incrível e um ótimo atendimento! Os produtos vestem perfeitamente e a qualidade não deixa nada a desejar quando comparada às melhores marcas importadas!",
       img: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/07/IMG_4029.jpg?w=732&h=412&crop=1",
     },
     {
       id: 2,
       name: "Katia Nunes",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui voluptatum vitae, dicta harum aliquid maxime repudiandae deleniti modi delectus!",
+      text: "Simplesmente amo essa loja! Costumo comprar apenas online. as descrições são perfeitas, o caimento e o tamanho das peças são exatamente como a descrição nos mostra.",
       img: "https://uploads.metropoles.com/wp-content/uploads/2023/07/17124030/F1K-cdbXwAgovdo-1.jpg",
     },
     {
       id: 3,
       name: "Carolina Almeida",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui voluptatum vitae, dicta harum aliquid maxime repudiandae deleniti modi delectus!",
+      text: "Virei cliente apenas pelas indicações que vi na página. Compro nessa loja há aproximadamente 1 ano e é a melhor escolha que já fiz! Tudo maravilhoso!",
       img: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/07/IMG_4032.jpg?w=732&h=412&crop=1",
     },
     {
       id: 4,
       name: "Vanessa Duarte",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui voluptatum vitae, dicta harum aliquid maxime repudiandae deleniti modi delectus!",
+      text: "Amo essa loja! O espaço físico é ainda mais lindo, com excelente atendimento em todos os setores, desde a venda até o pagamento. Simplesmente maravilhosa!",
       img: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/07/IMG_4034.jpg?w=732&h=412&crop=1",
     },
     {
       id: 5,
       name: "Rogério Maia",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui voluptatum vitae, dicta harum aliquid maxime repudiandae deleniti modi delectus!",
+      text: "Compro roupas para meus filhos nessa loja há muitos anos e indico a todos! A qualidade se resume em todas as etapas da venda!",
       img: "https://tm.ibxk.com.br/2019/02/17/17124052466014.jpg",
     },
   ];
@@ -78,15 +78,14 @@ const Testimonials = () => {
       <div className="container">
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">
-            What our customers are saying
+          <p data-aos="fade-up" className="text-base text-primary">
+            Veja o que nossos clientes acham
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold p-3">
-            Testimonials
+          <h1 data-aos="fade-up" className="text-4xl font-bold p-3">
+            Depoimentos
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-            accusantium impedit quae. Sit asperiores modi sit modi.
+          <p data-aos="fade-up" className="text-base text-gray-500">
+            Veja o que nossos clientes acham dos nossos produtos e forma de trabalhar. Corra e não fique de fora. Seja mais um a usufruir dos nossos ótimos produtos.
           </p>
         </div>
 
